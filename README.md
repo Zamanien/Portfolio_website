@@ -13,7 +13,7 @@ The project is made with the intent of being run inside a Docker Container but c
 ### Prerequisites:
 
 - Install Docker
-- Linux OS (Ubuntu)
+- Linux OS
 
 ### Setup
 
