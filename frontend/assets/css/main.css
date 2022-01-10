@@ -3950,3 +3950,10 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+	.middle-pos {
+		margin-top: 85px;
+		margin-left: 20px;
+		margin-bottom: auto;
+	}
