@@ -3,16 +3,13 @@ const app = express();
 require('dotenv').config();
 const PORT = process.env.PORT || 8080; 
 
-//Allows app to handle JSON objects from POST requests
-app.use(express.json());
-//Allows the app to read incoming objects as Strings or Arrays
+
+//Allows the use of JSON (for POST requests)
 app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-app.use(express.static(__dirname + "/frontend"));
-
-app.get('/', (req, res) => {
-    return res.sendFile(__dirname + '/frontend/index.html');
-});
+// server static files
+app.use(express.static('frontend', { extensions: ['html'] }))
 
 //every url not specified before this - redirects to /index
 app.get('/*', (req, res) => {
