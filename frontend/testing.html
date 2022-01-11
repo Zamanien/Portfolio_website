@@ -59,12 +59,12 @@
 								<div class="box alt">
 									<div class="row gtr-50 gtr-uniform">
 										<div class="col-2" onclick="location.href='assets/slides/1.Fundamentals_of_Testing-Presentation.pptx'"><span class="image fit"><img src="images/1_fundamentals.png" alt="Fundamentals - made in Diagram.io"/></span></div>
-										<div class="col-2" onclick="location.href='assets/slides/2.Life_cycle_and_the_V-model.pptx'"><span class="image fit"><img src="images/2_lifecycles&vmodel.png" alt="Life cycles and V-model - made in Diagram.io" /></span></div>
-										<div class="col-2" onclick="location.href='assets/slides/3.Integration_Test-Presentation.pptx'"><span class="image fit"><img src="images/3_integrationtesting.png" alt="Integration testing - made in Diagram.io" /></span></div>
+										<div class="col-2" onclick="location.href='assets/slides/2.Life_cycle_and_the_V-model.pptx'"><span class="image fit"><img src="images/2_lifecycle.png" alt="Life cycles and V-model - made in Diagram.io" /></span></div>
+										<div class="col-2" onclick="location.href='assets/slides/3.Integration_Test-Presentation.pptx'"><span class="image fit"><img src="images/3_integration.png" alt="Integration testing - made in Diagram.io" /></span></div>
 										<!-- Break -->
-										<div class="col-2" onclick="location.href='assets/slides/4.Agile_Testing-Presentation.pptx'"><span class="image fit"><img src="images/4_Agiletesting.png" alt="Agile Testing - made in Diagram.io" /></span></div>
-										<div class="col-2" onclick="location.href='assets/slides/5.Test_Strategy_Management-Presentation.pptx'"><span class="image fit"><img src="images/5_Testmanagement&strat.png" alt="Test Management & strategy - made in Diagram.io" /></span></div>
-										<div class="col-2" onclick="location.href='assets/slides/6.Acceptance_Usability_Testing-Presentation.pptx'"><span class="image fit"><img src="images/6_acceptance_usability.png" alt="Acceptance & usability testing - made in Diagram.io" /></span></div>
+										<div class="col-2" onclick="location.href='assets/slides/4.Agile_Testing-Presentation.pptx'"><span class="image fit"><img src="images/4_agile.png" alt="Agile Testing - made in Diagram.io" /></span></div>
+										<div class="col-2" onclick="location.href='assets/slides/5.Test_Strategy_Management-Presentation.pptx'"><span class="image fit"><img src="images/5_strategy.png" alt="Test Management & strategy - made in Diagram.io" /></span></div>
+										<div class="col-2" onclick="location.href='assets/slides/6.Acceptance_Usability_Testing-Presentation.pptx'"><span class="image fit"><img src="images/6_acceptance.png" alt="Acceptance & usability testing - made in Diagram.io" /></span></div>
 										<!-- Break -->
 										<!-- <div class="col-4"><span class="image fit"><img src="images/pic09.jpg" alt="" /></span></div>
 										<div class="col-4"><span class="image fit"><img src="images/pic10.jpg" alt="" /></span></div>
@@ -72,12 +72,263 @@
 									</div>
 								</div>
 
+								<h4>Terminology</h4>
+								<dl>
+									<dt>Risk assessment</dt>
+									<dd>
+										<p>Risk assessment is a process used to identify potential hazards, analyse the probability
+											for it to happen and the consequences that might follow. We then determine measures to
+											prevent or minimise the impact.
+											
+											There are different ways we can deal with these risk factors. There are proactive and
+											reactive risk strategies, which one can follow to deal with these risk factors. One reactive
+											risk strategy is known as the “Indiana Jones Strategy”, which is the approach of dealing
+											with issues once they occur rather than identifying and dealing with them from an early
+											stage.
+										</p>
+									</dd>
+									<dt>Risk Matrix</dt>
+									<dd>
+										<p>Risk assessment matrices can help us visualise and
+											categorise risks in different Criticality Levels depending
+											on their. These risks are put into a table</p>
+									</dd>
+									<dt>Usability Testing</dt>
+									<dd>
+										<p>Usability testing is done by real-life users, who reveal issues that people familiar with
+											a product can not identify. The users are usually observed by researchers, marketers
+											or by product owners. The primary focus of usability testing is to achieve goals with
+											effectiveness, efficiency and satisfaction in a specific context. To perform a usability
+											test properly, following usability components should be satisfied.
+										</p>
+										<ul class="alt">
+											<li>Satisfaction: Users understand how the site works and don't get 'lost' or feel
+												confused and enjoy using it.</li>
+											<li>Learnability: Users can complete the main actions without any help.</li>
+											<li>Efficiency: Users can have a functional and efficient experience.</li>
+											<li>Recoverability: Users should be able to continue and complete the work after
+												encountering an error.</li>
+											<li>Errors: UI should be clear and easy enough so that the user can complete their
+												tasks with few errors or mistakes.</li>
+											<li>Memorability: If the user is able to use the product again after not having
+												used it for a period of time Efficiency.</li>
+										</ul>
+											
+									
+									</dd>
+									<dt>Black-box</dt>
+									<dd>
+										<p> is a software testing method that is used to evaluate the functionality of the
+											software without looking at the internal components / structure. Black-box testing can be
+											applied to all phases / levels of testing, fx. Acceptance testing, integration testing, unit
+											testing, etc.
+											When we do black-box testing, we focus solely on the performance of the specified
+											application / product. This is done to ensure that the software functions as expected.</p>
+									</dd>
+									<dt>Equivalence Partitioning</dt>
+									<dd>
+										<p> is a black box testing technique where we divide the test conditions
+											into groups. We then take one condition from each group and perform a test on it. If that
+											specific condition passes our test, we will then assume that the remaining conditions in that
+											group work as well.
+											This technique has many benefits such as it reduces lots of rework while providing us with
+											decent test coverage. It also saves a lot of time by reducing the number of test cases.</p>
+									</dd>
+									<dt>Boundary Value Analysis</dt>
+									<dd>
+										<p>Boundary value testing goes hand in hand with equivalence partition testing. The goal is to
+											test the values near boundaries of the partitions from the equivalence partition testing.</p>
+									</dd>
+									<dt>Decision Table</dt>
+									<dd>
+										<p>Decision tables (DTT) are used to list the input conditions of the system followed by the
+											actions that correspond. We put this data into tables and can thereby get a decent overview of
+											each possible condition and action.</p>
+									</dd>
+									<dt>State Transition Diagram</dt>
+									<dd>
+										<p>Is a black box testing technique in which if we make changes in the input conditions it will
+											cause state changes or output changes in the Application. State-transition diagrams describe
+											all of the states that an object can have:
+
+											<ul class="alt">
+												<li>1. State is a condition of an object during its life in which the object satisfies some
+													condition, performs some action, or waits for some event.</li>
+												<li>2. The events under which an object changes state are called transitions.</li>
+												<li>3. The conditions that must be fulfilled before the transition will occur are called guards,
+													it is a Boolean expression which, if true, enables an event to cause a transition.</li>
+												<li>4. The activities undertaken during the life of an object are called actions.</li>
+												<li>5. State transition testing helps us to analyze behavior of an application for different
+													input conditions. We can provide positive or negative input test values and record the
+													system behavior.</li>
+												<li>6. Event is an occurrence that may trigger a state transition. Event types include an
+													explicit signal from outside the system, an invocation from inside the system, the
+													passage of a designated period of time, or a designated condition becoming true.</li>
+											</ul>
+											
+											
+										</p>
+										
+									</dd>
+									<dt>White-Box</dt>
+									<dd>
+										<p>[To-be-added]</p>
+									</dd>
+									<dt>Pseudo-code</dt>
+									<dd>
+										<p>Pseudocode generally does not actually obey the syntax rules of any particular language there is no
+											systematic standard form. Depending on the writer, pseudocode may vary widely in style, from a
+											near-exact imitation of a real programming language at one extreme, to a description approaching
+											formatted prose at the other.</p>
+									</dd>
+									<dt>Statement Coverage</dt>
+									<dd>
+										<p>Statement testing is a popular white-box testing technique that is used to design test cases and
+											achieve test coverage. When aiming for full statement coverage in a test, all statements of the source
+											code need to be executed at least once. By doing so, we can use the data to calculate the total
+											number of executed statements versus the total number of statements presented in the source code.
+											To calculate statement coverage, we can use the following formula:
+											<br><br>
+											Statement Coverage = Number of executed statements / Total number of statements * 100
+											<br><br>
+											The formula above will give us the Statement coverage percentage value.
+											This technique falls under the testing phase in the SDLC.
+											When performing a statement coverage test, the following steps should be applied:
+											
+											<ul class="alt">
+												<li>1. Examination of the complete functionalities of the program.</li>
+												<li>2. Collection and documentation of statements through the source code.</li>
+												<li>3. Verification of all the statements from step nr. 2.</li>
+											</ul>
+											
+											
+											
+											
+											By following the previously mentioned steps, we can ensure that we have done proper statement
+											coverage. With that said, there are of course some advantages and disadvantages for this technique.
+											<br><br>
+											<ul class="alt">
+												<li>- Reduces the amount of unused / unnecessary code.</li>
+												<li>- Can help improve the performance of the software.</li>
+												<li>- Helps with maintaining and managing the quality of the software.</li>
+											</ul>
+											Some disadvantages are as followed:
+											<br><br>
+											<ul class="alt">
+												<li>Can be costly if implemented late (usually if not implemented in the planning phase)</li>
+											</ul>
+										</p>
+									</dd>
+									<dt>Decision Coverage</dt>
+									<dd>
+										<p>Decision coverage also falls under white-box testing. This technique uses control flow graphs or
+											charts to cover all possible outcomes of every single Boolean condition in the code . In other words, it
+											is used every time there is a Decision point with two or more outcomes of True or False, such as
+											if/else, do, while and switch case statements. Each decision point must be executed to achieve full
+											decision coverage.
+											<br>
+
+											To calculate the decision coverage, we can use the following formula:
+											<br><br>
+											Decision Coverage = Number of decision outcomes exercised / Total number of decision outcomes * 100
+
+											<br><br>
+											The formula will give us the Decision Coverage percentage value.
+											When performing a decision coverage test, following steps should be applied:
+											<ul class="alt">
+												<li>1. Scanning the code end to end and finding the decision indicators in the code</li>
+												<li>2. Create flowchart in order to visualize the results or outcomes of the different decisions in the
+													code.</li>
+												<li>3. Evaluating the logical decisions from the previous step.
+													<li>3.1. Includes verifying and validating the logics</li>
+													<li>3.2. If end results match planned results: Evaluation → Success
+														<li>3.2.1. Should meet the data from the client in form of Functional Specification
+															Testing</li>
+													</li>
+												</li>
+											</ul>
+												
+											<br>
+											By following the previously mentioned steps, we ensure that we have done the decision coverage
+											testing properly. There are of course also some advantages and disadvantages to this testing
+											techniques:
+											<br>
+											Advantages for Decision Coverage:
+											<br><br>
+											<ul class="alt">
+												<li>- Keep track if there are unfinished or unused code / functionalities in the code</li>
+												<li>- Evaluates the complete code and its performance by testing if the functionality meets the
+													client’s requirements</li>
+												<li>- Encourages maintainability of the program’s quality and the logical decisions in it.</li>
+											</ul>
+											Disadvantages:
+											<ul class="alt">
+												<li>- Needs additional efforts from the development team and testing professionals</li>
+											</ul>
+											All in all, the statement and decision code coverage techniques are powerful testing techniques and
+											bring many benefits to the testing of an application. They ensure that each statement is tested
+											properly and that the requirements set by the client are met.
+											<br>
+											Benefits of Full Test Coverage:
+											The reason why we do test coverage is that we get better quality code in the long run in comparison
+											to the partial code coverage, not the other way around. There’ll probably be less dead code
+											afterwards – unless you like to write tests for dead code. Test coverage results in better structure and
+											cleaner code as well as they provide fewer use of anti patterns..
+											In order to achieve full coverage for our system, we need to calculate the minimum number of paths
+											that provide 100% coverage of statements and also decisions. The minimum paths for full statement
+											coverage do not necessarily provide full decision coverage but full decision coverage implies full
+											statement coverage.
+										</p>
+									</dd>
+									<dt>Test Case Design</dt>
+									<dd>
+										<p>Test case designs are used to make sure that the tests for a specified system are designed
+											properly. It is essential that tests for a system are designed well in order to identify bugs,
+											defects or other hazards in the software while performing the testing. The risks of poorly
+											designed test cases can be that critical bugs or defects may go undetected during the tests.
+											Test case design includes various techniques, which can be used to create proper testing
+											suites. There are three three major categories in test case designing. These categories are the
+											following:
+											<ul class="alt">
+												<li>- Specification based (black-box).</li>
+												<li>- Structure-based (white-box).</li>
+												<li>- Experience-based.</li>
+											</ul>
+
+											In order to perform a specification based test case design on a system, one must ensure to follow the three main steps:
+											<br><br>
+											<ul class="alt">
+												<li>1. Specify test procedures.</li>
+												<li>2. Identify test conditions.</li>
+												<li>3. Specify test cases.</li>
+											</ul>
+										</p>
+											
+									</dd>
+									<dt>Test Procedure</dt>
+									<dd>
+										<p>Test procedure is a sequence of actions for the execution of a test.</p>
+									</dd>
+									<dt>Test Conditions</dt>
+									<dd>
+										<p>Test conditions specify an item, event or components of a given software that can be verified
+											by a test or set of test cases. They act as rules that should be followed in order to test certain
+											functionalities.</p>
+									</dd>
+									<dt>Test Cases</dt>
+									<dd>
+										<p> Test cases act as the starting point for the test execution process. After applying a set of input
+											values, the application has a definitive outcome and leaves the system at some endpoint - also
+											known as execution postcondition.</p>
+									</dd>
+								</dl>
+
 		
 				<!-- Contact -->
 					<section id="contact">
 						<div class="inner">
-							<!-- <section>
-								<form method="post" action="#">
+							<section>
+								<!-- <form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -96,8 +347,8 @@
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
 									</ul>
-								</form>
-							</section> -->
+								</form> -->
+							</section>
 							<section class="split">
 								<section>
 									<div class="contact-method">
@@ -121,11 +372,11 @@
 										Nashville, TN 00000<br />
 										United States of America</span>
 									</div>
-								</section> -->
+								</section>
 							</section>
 						</div>
 					</section>
-
+				-->
 					
 
 				<!-- Footer -->
